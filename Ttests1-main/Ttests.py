@@ -126,7 +126,7 @@ btn_save = QPushButton('Сохранить')
 #Создание второго учительского экрана
 lbl_teach2 = QLabel('Добрый день!\n Наталья Владимировна')
 lbl_teach2.setFont(font)
-# btn_login = QPushButton('Сменить логин и пароль')
+btn_login = QPushButton('Сменить логин и пароль')
 btn_edit5 = QPushButton('Редактировать 5 класс')
 btn_edit6 = QPushButton('Редактировать 6 класс')
 btn_edit8 = QPushButton('Редактировать 8 класс')
@@ -212,64 +212,64 @@ field_text_q1 = QTextEdit()
 field_text_q2 = QTextEdit()
 field_text_q3 = QTextEdit()
 
-list_q5 = QListWidget()
-list_q_label5 = QLabel('Список вопросов')
+# list_q5 = QListWidget()
+# list_q_label5 = QLabel('Список вопросов')
 
 
-button_q_create5 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
-button_q_del5 = QPushButton('Удалить вопрос')
-button_q_save5 = QPushButton('Сохранить вопрос')
-button_q_edit5 = QPushButton('Изменить вопрос')
+# button_q_create5 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
+# button_q_del5 = QPushButton('Удалить вопрос')
+# button_q_save5 = QPushButton('Сохранить вопрос')
+# button_q_edit5 = QPushButton('Изменить вопрос')
 
 
-field_text_r = QTextEdit()
-field_text_q1 = QTextEdit()
-field_text_q2 = QTextEdit()
-field_text_q3 = QTextEdit()
+# field_text_r = QTextEdit()
+# field_text_q1 = QTextEdit()
+# field_text_q2 = QTextEdit()
+# field_text_q3 = QTextEdit()
 
-list_q6 = QListWidget()
-list_q_label6 = QLabel('Список вопросов')
-
-
-button_q_create6 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
-button_q_del6 = QPushButton('Удалить вопрос')
-button_q_save6 = QPushButton('Сохранить вопрос')
-button_q_edit6 = QPushButton('Изменить вопрос')
+# list_q6 = QListWidget()
+# list_q_label6 = QLabel('Список вопросов')
 
 
-field_text_r = QTextEdit()
-field_text_q1 = QTextEdit()
-field_text_q2 = QTextEdit()
-field_text_q3 = QTextEdit()
-
-list_q10 = QListWidget()
-list_q_label10 = QLabel('Список вопросов')
+# button_q_create6 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
+# button_q_del6 = QPushButton('Удалить вопрос')
+# button_q_save6 = QPushButton('Сохранить вопрос')
+# button_q_edit6 = QPushButton('Изменить вопрос')
 
 
-button_q_create10 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
-button_q_del10 = QPushButton('Удалить вопрос')
-button_q_save10 = QPushButton('Сохранить вопрос')
-button_q_edit10 = QPushButton('Изменить вопрос')
+# field_text_r = QTextEdit()
+# field_text_q1 = QTextEdit()
+# field_text_q2 = QTextEdit()
+# field_text_q3 = QTextEdit()
 
-list_q11 = QListWidget()
-list_q_label11 = QLabel('Список вопросов')
-
-
-button_q_create11 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
-button_q_del11 = QPushButton('Удалить вопрос')
-button_q_save11 = QPushButton('Сохранить вопрос')
-button_q_edit11 = QPushButton('Изменить вопрос')
+# list_q10 = QListWidget()
+# list_q_label10 = QLabel('Список вопросов')
 
 
-field_text_r = QTextEdit()
-field_text_q1 = QTextEdit()
-field_text_q2 = QTextEdit()
-field_text_q3 = QTextEdit()
+# button_q_create10 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
+# button_q_del10 = QPushButton('Удалить вопрос')
+# button_q_save10 = QPushButton('Сохранить вопрос')
+# button_q_edit10 = QPushButton('Изменить вопрос')
 
-field_text_r = QTextEdit()
-field_text_q1 = QTextEdit()
-field_text_q2 = QTextEdit()
-field_text_q3 = QTextEdit()
+# list_q11 = QListWidget()
+# list_q_label11 = QLabel('Список вопросов')
+
+
+# button_q_create11 = QPushButton('Создать вопрос') #появляется окно с полем "Введите имя заметки"
+# button_q_del11 = QPushButton('Удалить вопрос')
+# button_q_save11 = QPushButton('Сохранить вопрос')
+# button_q_edit11 = QPushButton('Изменить вопрос')
+
+
+# field_text_r = QTextEdit()
+# field_text_q1 = QTextEdit()
+# field_text_q2 = QTextEdit()
+# field_text_q3 = QTextEdit()
+
+# field_text_r = QTextEdit()
+# field_text_q1 = QTextEdit()
+# field_text_q2 = QTextEdit()
+# field_text_q3 = QTextEdit()
 #создание окна где учитель будет редактировать вопросы с письменным ответом
 list_q3 = QListWidget()
 list_q_label3 = QLabel('Список вопросов')
@@ -300,7 +300,7 @@ lbl_mark = QLabel('')
 
 lbl_fin.setFont(font1)
 lbl_mark.setFont(font1)
-
+lbl_stat.setFont(font1)
 
 
 # создание меню для ученика
@@ -321,12 +321,19 @@ btn_student_menu11 = QPushButton('11 класс')
 lbl_question = QLabel('Вопрос')
 lbl_question.setFont(font2)
 RadioGroup = QGroupBox('Варианты ответов:')
+RadioGroup.setFont(font)
 rbtn_1 = QRadioButton('Ответ 1')
 rbtn_2 = QRadioButton('Ответ 2')
 rbtn_3 = QRadioButton('Ответ 3')
 rbtn_4 = QRadioButton('Ответ 4')
 
 btn_ok = QPushButton('Ответить')
+
+
+rbtn_1.setFont(font)
+rbtn_2.setFont(font)
+rbtn_3.setFont(font)
+rbtn_4.setFont(font)
 
 AnswerGroup = QGroupBox('Результат')
 lbl_result = QLabel('Верно/ Не верно')
@@ -395,113 +402,113 @@ layout_q.addLayout(col_3, stretch = 2)
 layout_q.addLayout(col_4, stretch = 1)
 teacher_edit_q_win.setLayout(layout_q)
 
-layout_q5 = QHBoxLayout()
-col_3 = QVBoxLayout()
-col_3.addWidget(field_text)
-col_3.addWidget(field_text_r)
-col_3.addWidget(field_text_q1)
-col_3.addWidget(field_text_q2)
-col_3.addWidget(field_text_q3)
-col_3.addWidget(button_q_edit5)
+# layout_q5 = QHBoxLayout()
+# col_3 = QVBoxLayout()
+# col_3.addWidget(field_text)
+# col_3.addWidget(field_text_r)
+# col_3.addWidget(field_text_q1)
+# col_3.addWidget(field_text_q2)
+# col_3.addWidget(field_text_q3)
+# col_3.addWidget(button_q_edit5)
 
 
 
 
-col_4 = QVBoxLayout()
-col_4.addWidget(list_q_label5)
-col_4.addWidget(list_q5)
-row_3 = QHBoxLayout()
-row_3.addWidget(button_q_create5)
-row_3.addWidget(button_q_del5)
-row_4 = QHBoxLayout()
-# row_4.addWidget(button_q_save)
-col_4.addLayout(row_3)
-col_4.addLayout(row_4)
+# col_4 = QVBoxLayout()
+# col_4.addWidget(list_q_label5)
+# col_4.addWidget(list_q5)
+# row_3 = QHBoxLayout()
+# row_3.addWidget(button_q_create5)
+# row_3.addWidget(button_q_del5)
+# row_4 = QHBoxLayout()
+# # row_4.addWidget(button_q_save)
+# col_4.addLayout(row_3)
+# col_4.addLayout(row_4)
 
-layout_q5.addLayout(col_3, stretch = 2)
-layout_q5.addLayout(col_4, stretch = 1)
-teacher_edit_q_win5.setLayout(layout_q5)
+# layout_q5.addLayout(col_3, stretch = 2)
+# layout_q5.addLayout(col_4, stretch = 1)
+# teacher_edit_q_win5.setLayout(layout_q5)
 
-layout_q6 = QHBoxLayout()
-col_3 = QVBoxLayout()
-col_3.addWidget(field_text)
-col_3.addWidget(field_text_r)
-col_3.addWidget(field_text_q1)
-col_3.addWidget(field_text_q2)
-col_3.addWidget(field_text_q3)
-col_3.addWidget(button_q_edit6)
-
-
-
-
-col_4 = QVBoxLayout()
-col_4.addWidget(list_q_label6)
-col_4.addWidget(list_q6)
-row_3 = QHBoxLayout()
-row_3.addWidget(button_q_create6)
-row_3.addWidget(button_q_del6)
-row_4 = QHBoxLayout()
-# row_4.addWidget(button_q_save)
-col_4.addLayout(row_3)
-col_4.addLayout(row_4)
-
-layout_q6.addLayout(col_3, stretch = 2)
-layout_q6.addLayout(col_4, stretch = 1)
-teacher_edit_q_win6.setLayout(layout_q6)
-
-layout_q10 = QHBoxLayout()
-col_3 = QVBoxLayout()
-col_3.addWidget(field_text)
-col_3.addWidget(field_text_r)
-col_3.addWidget(field_text_q1)
-col_3.addWidget(field_text_q2)
-col_3.addWidget(field_text_q3)
-col_3.addWidget(button_q_edit10)
+# layout_q6 = QHBoxLayout()
+# col_3 = QVBoxLayout()
+# col_3.addWidget(field_text)
+# col_3.addWidget(field_text_r)
+# col_3.addWidget(field_text_q1)
+# col_3.addWidget(field_text_q2)
+# col_3.addWidget(field_text_q3)
+# col_3.addWidget(button_q_edit6)
 
 
 
 
-col_4 = QVBoxLayout()
-col_4.addWidget(list_q_label10)
-col_4.addWidget(list_q10)
-row_3 = QHBoxLayout()
-row_3.addWidget(button_q_create10)
-row_3.addWidget(button_q_del10)
-row_4 = QHBoxLayout()
-# row_4.addWidget(button_q_save)
-col_4.addLayout(row_3)
-col_4.addLayout(row_4)
+# col_4 = QVBoxLayout()
+# col_4.addWidget(list_q_label6)
+# col_4.addWidget(list_q6)
+# row_3 = QHBoxLayout()
+# row_3.addWidget(button_q_create6)
+# row_3.addWidget(button_q_del6)
+# row_4 = QHBoxLayout()
+# # row_4.addWidget(button_q_save)
+# col_4.addLayout(row_3)
+# col_4.addLayout(row_4)
 
-layout_q10.addLayout(col_3, stretch = 2)
-layout_q10.addLayout(col_4, stretch = 1)
-teacher_edit_q_win10.setLayout(layout_q10)
+# layout_q6.addLayout(col_3, stretch = 2)
+# layout_q6.addLayout(col_4, stretch = 1)
+# teacher_edit_q_win6.setLayout(layout_q6)
 
-layout_q11 = QHBoxLayout()
-col_3 = QVBoxLayout()
-col_3.addWidget(field_text)
-col_3.addWidget(field_text_r)
-col_3.addWidget(field_text_q1)
-col_3.addWidget(field_text_q2)
-col_3.addWidget(field_text_q3)
-col_3.addWidget(button_q_edit11)
-
-
+# layout_q10 = QHBoxLayout()
+# col_3 = QVBoxLayout()
+# col_3.addWidget(field_text)
+# col_3.addWidget(field_text_r)
+# col_3.addWidget(field_text_q1)
+# col_3.addWidget(field_text_q2)
+# col_3.addWidget(field_text_q3)
+# col_3.addWidget(button_q_edit10)
 
 
-col_4 = QVBoxLayout()
-col_4.addWidget(list_q_label11)
-col_4.addWidget(list_q11)
-row_3 = QHBoxLayout()
-row_3.addWidget(button_q_create11)
-row_3.addWidget(button_q_del11)
-row_4 = QHBoxLayout()
-# row_4.addWidget(button_q_save)
-col_4.addLayout(row_3)
-col_4.addLayout(row_4)
 
-layout_q11.addLayout(col_3, stretch = 2)
-layout_q11.addLayout(col_4, stretch = 1)
-teacher_edit_q_win11.setLayout(layout_q11)
+
+# col_4 = QVBoxLayout()
+# col_4.addWidget(list_q_label10)
+# col_4.addWidget(list_q10)
+# row_3 = QHBoxLayout()
+# row_3.addWidget(button_q_create10)
+# row_3.addWidget(button_q_del10)
+# row_4 = QHBoxLayout()
+# # row_4.addWidget(button_q_save)
+# col_4.addLayout(row_3)
+# col_4.addLayout(row_4)
+
+# layout_q10.addLayout(col_3, stretch = 2)
+# layout_q10.addLayout(col_4, stretch = 1)
+# teacher_edit_q_win10.setLayout(layout_q10)
+
+# layout_q11 = QHBoxLayout()
+# col_3 = QVBoxLayout()
+# col_3.addWidget(field_text)
+# col_3.addWidget(field_text_r)
+# col_3.addWidget(field_text_q1)
+# col_3.addWidget(field_text_q2)
+# col_3.addWidget(field_text_q3)
+# col_3.addWidget(button_q_edit11)
+
+
+
+
+# col_4 = QVBoxLayout()
+# col_4.addWidget(list_q_label11)
+# col_4.addWidget(list_q11)
+# row_3 = QHBoxLayout()
+# row_3.addWidget(button_q_create11)
+# row_3.addWidget(button_q_del11)
+# row_4 = QHBoxLayout()
+# # row_4.addWidget(button_q_save)
+# col_4.addLayout(row_3)
+# col_4.addLayout(row_4)
+
+# layout_q11.addLayout(col_3, stretch = 2)
+# layout_q11.addLayout(col_4, stretch = 1)
+# teacher_edit_q_win11.setLayout(layout_q11)
 
 layout_q3 = QHBoxLayout()
 col_33 = QVBoxLayout()
@@ -1125,10 +1132,10 @@ btn_edit_quiz11.clicked.connect(teacer_q_edit11)
 btn_edit_textes.clicked.connect(teacher_menu_edit_q3)
 button_q_create.clicked.connect(add_q)
 list_q.itemClicked.connect(show_q)
-list_q5.itemClicked.connect(show_q5)
-list_q6.itemClicked.connect(show_q6)
-list_q10.itemClicked.connect(show_q10)
-list_q11.itemClicked.connect(show_q11)
+# list_q5.itemClicked.connect(show_q5)
+# list_q6.itemClicked.connect(show_q6)
+# list_q10.itemClicked.connect(show_q10)
+# list_q11.itemClicked.connect(show_q11)
 button_q_edit.clicked.connect(edit_q)
 # list_q3.itemClicked.connect(show_q3)
 
